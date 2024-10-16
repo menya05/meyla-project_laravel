@@ -1,0 +1,209 @@
+/* navigation.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .navbar {
+    background-color: #333;
+    flex-grow: 1;
+    text-align: right;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #e20c0c;
+    color: black;
+  }
+  
+  #active {
+    background-color: #af4c4c;
+  }
+  
+.slide {
+    background-color: rgb(247, 240, 240);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .slide .div {
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #fffbfb;
+    background: linear-gradient(180deg, rgb(148.4, 82.24, 82.24) 66.67%, rgba(245.44, 232.48, 232.48, 0) 84.82%);
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+  }
+  
+  .slide .overlap-group {
+    position: absolute;
+    width: 1957px;
+    height: 207px;
+    top: -24px;
+    left: 0;
+  }
+  
+  .slide .rectangle {
+    position: absolute;
+    width: 1957px;
+    height: 189px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+  }
+  
+  .slide .text-wrapper {
+    position: absolute;
+    top: 94px;
+    left: 1166px;
+    font-family: "Fascinate Inline-Regular", Helvetica;
+    font-weight: 400;
+    color: #972d2d;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .text-wrapper-2 {
+    position: absolute;
+    width: 577px;
+    top: 76px;
+    left: 45px;
+    font-family: "Kavoon-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .text-wrapper-3 {
+    position: absolute;
+    top: 94px;
+    left: 679px;
+    font-family: "Fascinate Inline-Regular", Helvetica;
+    font-weight: 400;
+    color: #972d2d;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .text-wrapper-4 {
+    position: absolute;
+    top: 94px;
+    left: 1393px;
+    font-family: "Fascinate Inline-Regular", Helvetica;
+    font-weight: 400;
+    color: #972d2d;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .text-wrapper-5 {
+    position: absolute;
+    top: 94px;
+    left: 1576px;
+    font-family: "Fascinate Inline-Regular", Helvetica;
+    font-weight: 400;
+    color: #972d2d;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .text-wrapper-6 {
+    position: absolute;
+    width: 296px;
+    top: 94px;
+    left: 870px;
+    font-family: "Fascinate Inline-Regular", Helvetica;
+    font-weight: 400;
+    color: #972d2d;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .text-wrapper-7 {
+    position: absolute;
+    top: 337px;
+    left: 193px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .overlap {
+    position: absolute;
+    width: 1176px;
+    height: 237px;
+    top: 420px;
+    left: 121px;
+  }
+  
+  .slide .text-wrapper-8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .p {
+    position: absolute;
+    top: 160px;
+    left: 74px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .gambar {
+    position: absolute;
+    width: 420px;
+    height: 487px;
+    top: 342px;
+    left: 1426px;
+    object-fit: cover;
+  }
+  
