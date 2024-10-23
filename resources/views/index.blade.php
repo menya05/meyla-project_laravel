@@ -1,25 +1,38 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <ul>
-        <li><a href="home.html" id="active"><i class="fa fa-home"></i> Home</a></li>
-        <li><a href="about.html"id="active"><i class="fa fa-user"></i> About</a></li>
-        <li><a href="family.html"id="active"><i class="fa fa-book"></i> Family</a></li>
-        <li><a href="contack.html"id="active"><i class="fa fa-pencil"></i> Contact</a></li>
-      </ul>
-    <div class="slide">
-      <div class="div">
-        <div class="text-wrapper-7">HI NAMA SAYA</div>
-        <div class="overlap">
-          <div class="text-wrapper-8">MEYLA ARISTA JATI PRAMESTI</div>
-          <p class="p">SAYA SEKOLAH DI SMK TELKOM PURWOKERTO</p>
+<head>
+  <title>Portofolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap">
+</head>
+<body class="bg-gray-200">
+  <div id="app" class="min-h-screen flex flex-col">
+    <header class="bg-gray-300 p-4 flex justify-between items-center">
+      <div class="text-4xl font-bold" style="font-family: 'Roboto', sans-serif;">PORTOFOLIO</div>
+      <nav class="space-x-4 text-xl" style="font-family: 'Roboto', sans-serif;">
+        <a href="#" class="text-red-700">HOME</a>
+        <a href="#" class="text-red-700">ABOUT ME</a>
+        <a href="#" class="text-red-700">FAMILY</a>
+        <a href="#" class="text-red-700">CONTACT</a>
+      </nav>
+    </header>
+    <main class="flex-grow bg-red-700 text-white p-8 flex items-center justify-center">
+      <div class="max-w-4xl mx-auto flex items-center">
+        <div class="mr-8">
+          <p class="text-lg">HI NAMA SAYA</p>
+          <h1 class="text-4xl font-bold" style="font-family: 'Roboto', sans-serif;">MEYLA ARISTA JATI PRAMESTI</h1>
+          <p class="text-lg">SAYA SEKOLAH DI SMK TELKOM PURWOKERTO</p>
         </div>
-        <img class="gambar" src="foto/gambar 1.jpg" />
+        <div class="w-48 h-48 rounded-lg overflow-hidden">
+          <img src="https://placehold.co/192x192" alt="A person posing for a photo" class="w-full h-full object-cover">
+        </div>
       </div>
-    </div>
-  </body>
-</html>
+    </main>
+  </div>
+  <script src="https://registry.npmmirror.com/vue/3.3.11/files/dist/vue.global.js"></script>
+  <script>
+    const { createApp, ref } = Vue
+    createApp({
+      setup() {
+        const message = ref('Hello vue!')
+        return {
