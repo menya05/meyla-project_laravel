@@ -22,6 +22,7 @@
           <p class="text-lg">HI NAMA SAYA</p>
           <h1 class="text-4xl font-bold" style="font-family: 'Roboto', sans-serif;">MEYLA ARISTA JATI PRAMESTI</h1>
           <p class="text-lg">SAYA SEKOLAH DI SMK TELKOM PURWOKERTO</p>
+          <a href="{{ route('about') }}" class="text-1xl font-bold mb-4">Selengkapnya...</a>
         </div>
         <div class="w-48 h-48 rounded-lg overflow-hidden">
           <img src="https://placehold.co/192x192" alt="A person posing for a photo" class="w-full h-full object-cover">
