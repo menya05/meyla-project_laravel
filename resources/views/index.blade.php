@@ -12,7 +12,7 @@
       <nav class="space-x-4 text-xl" style="font-family: 'Roboto', sans-serif;">
         <a href="#" class="text-red-700">HOME</a>
         <a href="#" class="text-red-700">ABOUT ME</a>
-        <a href="#" class="text-red-700">FAMILY</a>
+        <a href="/admin" class="text-red-700">FAMILY</a>
         <a href="#" class="text-red-700">CONTACT</a>
       </nav>
     </header>
@@ -31,9 +31,3 @@
     </main>
   </div>
   <script src="https://registry.npmmirror.com/vue/3.3.11/files/dist/vue.global.js"></script>
-  <script>
-    const { createApp, ref } = Vue
-    createApp({
-      setup() {
-        const message = ref('Hello vue!')
-        return {
